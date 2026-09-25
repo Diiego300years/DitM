@@ -67,3 +67,14 @@ Recommended layout:
 
 **Front:** navy background, DM mark + DitM wordmark.  
 **Back:** white/light background, contact details, blue accent and free space for a future QR code.
+
+
+## Source files in Canva
+
+Editable source designs:
+
+- **Logo exploration:** https://www.canva.com/d/gofNaheGqFD7CPN
+  - Selected direction: Concept 2 — DM monogram
+- **Business card:** https://www.canva.com/d/6NLAScGhQUmuoG8
+
+> Note: the SVG files in this repository are a clean web reconstruction of the selected logo direction for immediate use in the website mockup. Keep the Canva logo exploration as the visual source of truth while the final vector master is refined/exported.

@@ -1,0 +1,8 @@
+<svg width="360" height="128" viewBox="0 0 360 128" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">DitM logo light</title>
+  <desc id="desc">DitM geometric DM monogram for dark backgrounds</desc>
+  <path d="M18 24H54C77.2 24 92 39.6 92 62C92 84.4 77.2 100 54 100H18V24ZM34 40V84H53C66.9 84 76 75.9 76 62C76 48.1 66.9 40 53 40H34Z" fill="#FFFFFF"/>
+  <path d="M40 50L58 66L76 50V86L64 76L58 81L52 76L40 86V50Z" fill="#FFFFFF"/>
+  <path d="M76 76L92 62V100H76V76Z" fill="#2F6BFF"/>
+  <text x="126" y="80" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="48" font-weight="700" letter-spacing="-1.5">DitM</text>
+</svg>

@@ -14,6 +14,7 @@ export const metadata: Metadata = {
   applicationName: "DitM",
   openGraph: {
     type: "website",
+    url: "/",
     locale: "pl_PL",
     siteName: "DitM",
     title: "DitM — Dobry kod. Praktyczne AI.",

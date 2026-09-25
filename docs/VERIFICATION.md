@@ -9,7 +9,7 @@
 - W konsoli podczas kontroli nie pojawiły się błędy aplikacji. Zarejestrowane komunikaty pochodziły z rozszerzenia środowiska przeglądarkowego.
 - Oryginalne cztery pliki SVG zachowane bez zmian. Bez niepotwierdzonych opinii, case studies ani imitacji logotypów partnerów.
 - Źródła Eurostatu za lata 2023–2025 sprawdzone; różnice metodologiczne i aktualizacja wartości dla UE w 2023 opisane w artykule.
-- Pierwszy deployment Vercel uzyskał status `READY`, a publiczny adres https://ditm.vercel.app działał w przeglądarce. Finalne poprawki wymagają aktualizacji tego samego projektu.
+- Deployment produkcyjny Vercel uzyskał status `READY`, a publiczny adres https://ditm.vercel.app działał w przeglądarce. Weryfikacja HTTP: strona główna, blog, artykuł, kontakt, obraz Open Graph, favicon, robots i sitemap zwracają 200; nieistniejąca trasa zwraca 404. Canonical i adresy obrazów wskazują domenę produkcyjną.
 
 ## Zakres pomiaru wydajności
 

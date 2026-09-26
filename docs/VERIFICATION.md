@@ -25,3 +25,5 @@ Projekt Vercel: `ditm`. Wdrożenie przez połączony konektor Vercel. Repozytori
 - Poprawiono geometrię M, współczynnik proporcji grafiki i kontener logo. Wspólny kształt zastosowano w ciemnym i jasnym logo oraz faviconie. Open Graph korzysta z poprawionego SVG.
 - Sprawdzono wizualnie navbar na desktopie i przy 320 px oraz jasny wariant w stopce mobilnej. Logo nie jest przycięte i nie nachodzi na menu.
 - `npm run check`: lint, TypeScript i build produkcyjny przechodzą bez błędów.
+
+- Publikacja poprawki 26.09.2026 zablokowana: konektor Vercel zwrócił `Tool deploy_to_vercel not found`. Kod poprawki zapisano na `main` w commicie `76ffcfd`. Nie potwierdzono aktualizacji strony produkcyjnej.

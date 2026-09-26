@@ -11,21 +11,21 @@ type BrandLogoProps = {
 export function BrandLogo({
   variant = "dark",
   compact = false,
-  width = compact ? 44 : 196,
+  width = compact ? 44 : 160,
   className,
   priority = false,
 }: BrandLogoProps) {
   const src = compact
-    ? "/brand/ditm-mark.svg"
+    ? "/brand/ditm-mark.svg?v=2"
     : variant === "light"
-      ? "/brand/ditm-logo-light.svg"
-      : "/brand/ditm-logo.svg";
+      ? "/brand/ditm-logo-light.svg?v=2"
+      : "/brand/ditm-logo.svg?v=2";
   return (
     <Image
       src={src}
       alt="DitM"
       width={width}
-      height={compact ? width : Math.round((width * 128) / 360)}
+      height={compact ? width : Math.round((width * 190) / 490)}
       priority={priority}
       className={className}
     />

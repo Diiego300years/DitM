@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     description: site.description,
     images: ["/opengraph-image"],
   },
-  icons: { icon: [{ url: "/favicon.svg", type: "image/svg+xml" }] },
+  icons: { icon: [{ url: "/favicon.svg?v=2", type: "image/svg+xml" }] },
 };
 export const viewport: Viewport = { themeColor: "#0F172A" };
 

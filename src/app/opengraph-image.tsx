@@ -24,11 +24,11 @@ export default async function Image() {
           justifyContent: "space-between",
         }}
       >
-        {/* The original logo is embedded unchanged in the social preview. */}
+        {/* Use the same corrected DM geometry as the navigation and favicon. */}
         <img
           src={`data:image/svg+xml;base64,${logo}`}
           width={250}
-          height={89}
+          height={97}
           alt="DitM"
         />
         <div

@@ -167,13 +167,13 @@ svg {
 .brand-link {
   display: inline-flex;
   align-items: center;
-  width: 148px;
+  width: 160px;
   flex-shrink: 0;
 }
 .brand-link img {
   display: block;
-  width: 196px;
-  max-width: none;
+  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 .main-navigation {
@@ -1306,10 +1306,7 @@ svg {
     height: 75px;
   }
   .brand-link {
-    width: 126px;
-  }
-  .brand-link img {
-    width: 178px;
+    width: 136px;
   }
   .menu-toggle {
     display: inline-flex;

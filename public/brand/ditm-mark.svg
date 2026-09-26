@@ -1,7 +1,7 @@
-<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">DitM mark</title>
-  <desc id="desc">Geometric DM monogram with blue accent</desc>
-  <path d="M18 24H54C77.2 24 92 39.6 92 62C92 84.4 77.2 100 54 100H18V24ZM34 40V84H53C66.9 84 76 75.9 76 62C76 48.1 66.9 40 53 40H34Z" fill="#0F172A"/>
-  <path d="M40 50L58 66L76 50V86L64 76L58 81L52 76L40 86V50Z" fill="#0F172A"/>
-  <path d="M76 76L92 62V100H76V76Z" fill="#2F6BFF"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" role="img" aria-label="DitM — monogram DM">
+  
+  <g transform="translate(9 23.365) scale(0.431372549)">
+    <path d="M0 0H116C167 0 201 27 203 78L169 103V75C169 49 149 32 117 32H35V149H84V58L169 125L255 58V108L169 163L113 118V179H0Z" fill="#0F172A"/>
+    <path d="M226 126.55L255 108V189H226Z" fill="#2F6BFF"/>
+  </g>
 </svg>

@@ -18,3 +18,10 @@ Strony są statyczne, fonty lokalne, grafiki SVG, animacje CSS i brak zewnętrzn
 ## Wdrożenie i dalsza praca
 
 Projekt Vercel: `ditm`. Wdrożenie przez połączony konektor Vercel. Repozytorium źródłowe: `Diiego300years/DitM`. Automatycznych wdrożeń po pushu nie potwierdzono; można podłączyć to repozytorium w ustawieniach Git istniejącego projektu Vercel. Własna domena jest opcjonalna; po jej podłączeniu należy ustawić `NEXT_PUBLIC_SITE_URL` i ponowić deployment.
+
+## Korekta logo — 26 września 2026
+
+- Porównano wybrany przez użytkownika wzór z planszą 2 w Canvie (`DAHWMJMKMd8`); sesję inspekcji zamknięto bez zmian w projekcie Canva.
+- Poprawiono geometrię M, współczynnik proporcji grafiki i kontener logo. Wspólny kształt zastosowano w ciemnym i jasnym logo oraz faviconie. Open Graph korzysta z poprawionego SVG.
+- Sprawdzono wizualnie navbar na desktopie i przy 320 px oraz jasny wariant w stopce mobilnej. Logo nie jest przycięte i nie nachodzi na menu.
+- `npm run check`: lint, TypeScript i build produkcyjny przechodzą bez błędów.

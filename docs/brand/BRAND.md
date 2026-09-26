@@ -77,4 +77,12 @@ Editable source designs:
   - Selected direction: Concept 2 — DM monogram
 - **Business card:** https://www.canva.com/d/6NLAScGhQUmuoG8
 
-> Note: the SVG files in this repository are a clean web reconstruction of the selected logo direction for immediate use in the website mockup. Keep the Canva logo exploration as the visual source of truth while the final vector master is refined/exported.
+## Confirmed reference and correction — 2026-09-26
+
+The approved visual reference is saved unchanged as `selected-logo-reference.png` next to this guide. Canva design `DAHWMJMKMd8`, page 2 (Concept 2 — DM monogram), confirms the same construction. The Canva project was inspected without modifying it.
+
+The previous web SVG reconstruction incorrectly placed a small M inside a closed D. The corrected SVG geometry follows the selected reference: an open D, a wide M extending to the right, and a separate blue right stem. Navbar and footer use a horizontal lockup; favicon uses the same monogram.
+
+These SVGs are a web vector reconstruction from the confirmed reference, not a native vector export from Canva. The original Canva components are raster images. Do not replace the geometry with a different DM symbol or compress M inside D. Keep the full 490 × 190 aspect ratio for horizontal logos and use `width: 100%; height: auto` within the logo container.
+
+The `?v=2` asset URLs invalidate previously cached logos and favicon.

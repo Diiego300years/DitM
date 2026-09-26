@@ -27,7 +27,7 @@ Next.js 16 / App Router, React 19, TypeScript, Tailwind CSS 4. Statyczne strony 
 - `src/lib/site.ts` — dane kontaktowe i adres strony.
 - `src/lib/blog.ts` — odczyt i walidacja Markdown z metadanymi.
 - `content/blog` — wpisy i źródła.
-- `public/brand` — istniejące pliki logo, zachowane bez zmian.
+- `public/brand` — warianty logo skorygowane według potwierdzonego wzoru DM.
 - `docs/brand/BRAND.md` — oryginalny przewodnik marki.
 - `docs/WEBSITE.md` — decyzje projektowe i zasady rozbudowy.
 
@@ -73,6 +73,6 @@ Nie są wymagane żadne sekrety. Adres dla canonical, sitemap i Open Graph jest 
 
 ## Branding i kontakt
 
-Pełne ciemne logo: navbar; wariant jasny: footer; istniejący `public/favicon.svg`: favicon. SVG nie zmieniano. Źródła projektu w Canvie pozostają opisane w `docs/brand/BRAND.md`.
+Pełne ciemne logo: navbar; wariant jasny: footer; istniejący `public/favicon.svg`: favicon. Geometrię SVG poprawiono 26.09.2026 zgodnie z wybranym monogramem DM. Wzór i pochodzenie plików są opisane w `docs/brand/BRAND.md`.
 
 Kontakt pochodzi z pierwotnego README oraz przewodnika marki: Marcin Buczak, Software Engineer, `marcin.buczakk@gmail.com`, `+48 798 380 737`. Nie dodano niepotwierdzonych referencji ani zakresów prac dla PRO Sp. z o.o. i SONNIGER.

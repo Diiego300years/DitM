@@ -11,7 +11,7 @@ Repozytorium na commicie `84d0897` zawierało branding, cztery pliki SVG, kompon
 | Navbar                     | `public/brand/ditm-logo.svg`       | Jasne tło, oryginalne proporcje |
 | Footer                     | `public/brand/ditm-logo-light.svg` | Granatowe tło                   |
 | Favicon                    | `public/favicon.svg`               | Istniejący monogram             |
-| Rezerwa do małych formatów | `public/brand/ditm-mark.svg`       | Zachowany bez zmian             |
+| Rezerwa do małych formatów | `public/brand/ditm-mark.svg`       | Geometria jak w navbarze             |
 
 - Paleta: niebieski `#2F6BFF`, granat `#0F172A`, biel, szarość `#F5F7FA`. Tekst pomocniczy `#586579` dla czytelności na jasnym tle.
 - Manrope w nagłówkach, Inter w tekście. Lokalnie hostowane pliki fontów, bez połączenia przeglądarki z Google Fonts.
@@ -35,3 +35,7 @@ Dla UE w 2023 r. przyjęto 8,1% z nowszego komunikatu z grudnia 2025; wcześniej
 ## Weryfikacja
 
 Polecenie `npm run check` obejmuje lint, kontrolę typów i produkcyjny build. Wyniki kontroli przeglądarkowej i status wdrożenia zapisujemy osobno w `docs/VERIFICATION.md`.
+
+## Korekta logo — 26.09.2026
+
+Po porównaniu z wybranym wzorem i stroną 2 projektu Canva poprawiono geometrię monogramu: M wychodzi na prawo od D. Zaktualizowano oba logotypy, znak, favicon oraz proporcje ich wyświetlania. Referencja znajduje się w `docs/brand/selected-logo-reference.png`. SVG jest rekonstrukcją webową z referencji, nie eksportem wektorowym Canvy.

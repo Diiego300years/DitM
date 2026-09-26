@@ -584,16 +584,30 @@ svg {
   gap: 40px;
 }
 .partner-names li {
-  font-family: var(--ditm-font-heading);
-  font-weight: 600;
-  font-size: clamp(26px, 2.5vw, 37px);
-  letter-spacing: -0.03em;
-  white-space: nowrap;
+  min-width: 0;
 }
-.partner-names li span {
-  font-weight: 450;
-  font-size: 16px;
-  letter-spacing: -0.025em;
+.partner-logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 64px;
+  padding-block: 10px;
+  border-bottom: 1px solid transparent;
+  transition: border-color 160ms ease;
+}
+.partner-logo:hover {
+  border-color: var(--ditm-border);
+}
+.partner-logo img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.partner-logo-pro {
+  width: 200px;
+}
+.partner-logo-sonniger {
+  width: 245px;
 }
 .insights {
   padding-block: 90px 100px;
@@ -1529,14 +1543,12 @@ svg {
     font-size: 27px;
   }
   .partner-names {
-    gap: 45px;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+    gap: 28px;
   }
-  .partner-names li {
-    font-size: 27px;
-  }
-  .partner-names li span {
-    font-size: 13px;
+  .partner-logo {
+    width: 100%;
   }
   .insights {
     padding-block: 53px 60px;
@@ -1742,9 +1754,6 @@ svg {
   }
   .partner-names {
     gap: 23px;
-  }
-  .partner-names li {
-    font-size: 23px;
   }
   .prose table {
     font-size: 12px;

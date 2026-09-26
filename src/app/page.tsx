@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { Hero } from "@/components/Hero";
 import { Services } from "@/components/Services";
 import { ContactCta } from "@/components/ContactCta";
@@ -69,9 +70,34 @@ export default function Home() {
           aria-label="Firmy, z którymi współpracujemy"
         >
           <li>
-            PRO <span>Sp. z o.o.</span>
+            <a
+              href="https://firma-pro.com/pl/"
+              className="partner-logo partner-logo-pro"
+              aria-label="PRO Sp. z o.o. — oficjalna strona"
+            >
+              <Image
+                src="/partners/pro-logo.png"
+                alt="PRO Sp. z o.o."
+                width={1378}
+                height={568}
+                sizes="(max-width: 760px) 40vw, 200px"
+              />
+            </a>
           </li>
-          <li>SONNIGER</li>
+          <li>
+            <a
+              href="https://www.sonniger.com/"
+              className="partner-logo partner-logo-sonniger"
+              aria-label="SONNIGER — oficjalna strona"
+            >
+              <Image
+                src="/partners/sonniger-logo.svg"
+                alt="SONNIGER"
+                width={245}
+                height={33}
+              />
+            </a>
+          </li>
         </ul>
       </section>
       {latestPost && (

@@ -24,7 +24,7 @@ Repozytorium na commicie `84d0897` zawierało branding, cztery pliki SVG, kompon
 
 ## Architektura
 
-Wspólny layout, navbar i footer. Wszystkie strony prerenderowane, bez niepotrzebnego backendu. Blog to Markdown + YAML, przetwarzany na serwerze. Nowy wpis wymaga wyłącznie pliku i deploymentu. Dane kontaktowe są w jednym miejscu. PRO i SONNIGER występują jako tekstowe nazwy firm, bez imitacji ich logo.
+Wspólny layout, navbar i footer. Wszystkie strony prerenderowane, bez niepotrzebnego backendu. Blog to Markdown + YAML, przetwarzany na serwerze. Nowy wpis wymaga wyłącznie pliku i deploymentu. Dane kontaktowe są w jednym miejscu. Sekcja współpracy wykorzystuje oficjalne logo PRO w czerwonym wariancie i logo SONNIGER. Oryginalne pliki oraz ich źródła znajdują się w `public/partners`; każdy znak prowadzi do strony danej firmy.
 
 ## Dane artykułu
 

@@ -5,7 +5,7 @@ import { site, emailHref } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Kontakt — porozmawiajmy o Twoim projekcie",
   description:
-    "Potrzebujesz oprogramowania, automatyzacji lub szkolenia AI? Skontaktuj się z DitM. Marcin Buczak — e-mail i telefon.",
+    "Potrzebujesz oprogramowania, automatyzacji lub szkolenia AI? Skontaktuj się z DitM. Marcin Buczak i Daniel Kubica — kontakt e-mail.",
   alternates: { canonical: "/kontakt" },
   openGraph: {
     type: "website",
@@ -45,7 +45,7 @@ export default function ContactPage() {
         </p>
       </section>
       <div className="contact-grid">
-        <section className="contact-details" aria-labelledby="contact-person">
+        <section className="contact-details" aria-label="Kontakt z zespołem DitM">
           <p className="eyebrow">Porozmawiajmy bezpośrednio</p>
           <h2 id="contact-person">{site.contactName}</h2>
           <p className="contact-role">Software Engineer · DitM</p>
@@ -53,12 +53,14 @@ export default function ContactPage() {
             <span>{site.email}</span>
             <Arrow diagonal />
           </a>
-          <a className="contact-phone" href={site.phoneHref}>
-            {site.phone}
+          <h2 id="contact-daniel">Daniel Kubica</h2>
+          <p className="contact-role">marketing AI specialist</p>
+          <a className="contact-email" href="mailto:tupodasz.twojmail@gmail.com">
+            <span>tupodasz.twojmail@gmail.com</span>
             <Arrow diagonal />
           </a>
           <p className="contact-note">
-            Napisz e-mail lub zadzwoń. Nie potrzebujesz gotowej specyfikacji.
+            Napisz e-mail. Nie potrzebujesz gotowej specyfikacji.
           </p>
         </section>
         <section className="contact-brief" aria-labelledby="brief-title">

@@ -3,8 +3,6 @@ export const site = {
   description:
     "Tworzymy oprogramowanie, integrujemy AI i automatyzujemy procesy. Praktyczne wdrożenia i szkolenia AI dla firm.",
   email: "marcin.buczakk@gmail.com",
-  phone: "+48 798 380 737",
-  phoneHref: "tel:+48798380737",
   contactName: "Marcin Buczak",
 };
 
